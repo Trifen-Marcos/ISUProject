@@ -190,11 +190,11 @@ public class Main {
                                 ipadcount = ipadcount - removefromcart;
                                 quantity = quantity - removefromcart;
                                 paymentdue = 500 * quantity;
-                                System.out.println(" Your cart now consists of " + quantity + " ipads for a total cost of " + paymentdue + "dollars please type one to pay");
+                                System.out.println(" Your cart now consists of " + quantity + " ipads for a total cost of " + paymentdue + " dollars please type one to pay");
                                 paid = sc.nextInt();
                             }
                             if (paid == 1) {
-                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 2 to continue shopping");
+                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 4 to back to the menu");
                                 typeofshop = sc.nextInt();
                                 if (typeofshop == 1) {
                                     System.out.println("You are an administrator please enter your password (Hint: 12345)");
@@ -313,12 +313,12 @@ public class Main {
                                 int removefromcart = sc.nextInt();
                                 macbookcount = macbookcount - removefromcart;
                                 quantity = quantity - removefromcart;
-                                paymentdue = 500 * quantity;
+                                paymentdue = 2000 * quantity;
                                 System.out.println(" Your cart now consists of " + quantity + " macbooks for a total cost of " + paymentdue + "dollars please type one to pay");
                                 paid = sc.nextInt();
                             }
                             if (paid == 1) {
-                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 2 to continue shopping");
+                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 4 to back to the menu");
                                 typeofshop = sc.nextInt();
                                 if (typeofshop == 1) {
                                     System.out.println("You are an administrator please enter your password (Hint: 12345)");
@@ -447,13 +447,13 @@ public class Main {
                                 int removefromcart = sc.nextInt();
                                 harrypottercount = harrypottercount - removefromcart;
                                 quantity = quantity - removefromcart;
-                                paymentdue = 500 * quantity;
+                                paymentdue = 10 * quantity;
                                 System.out.println(" Your cart now consists of " + quantity + " ipads for a total cost of " + paymentdue + "dollars please type one to pay");
                                 paid = sc.nextInt();
                             }
 
                             if (paid == 1) {
-                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 2 to continue shopping");
+                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 4 to back to the menu");
                                 typeofshop = sc.nextInt();
                                 if (typeofshop == 1) {
                                     System.out.println("You are an administrator please enter your password (Hint: 12345)");
@@ -571,7 +571,7 @@ public class Main {
                         quantity = sc.nextInt();
                         if (quantity <= LordofTherings) {
                             lordoftheringscount = lordoftheringscount + quantity;
-                            paymentdue = (500 * quantity);
+                            paymentdue = (50 * quantity);
                             System.out.println("You cart contains " + lordoftheringscount + " this will cost you " + paymentdue + " Type 1 to pay and type 2 to remove something from your cart");
                             int paid = sc.nextInt();
                             if (paid == 2) {
@@ -579,12 +579,12 @@ public class Main {
                                 int removefromcart = sc.nextInt();
                                 harrypottercount = harrypottercount - removefromcart;
                                 quantity = quantity - removefromcart;
-                                paymentdue = 500 * quantity;
+                                paymentdue = 50 * quantity;
                                 System.out.println(" Your cart now consists of " + quantity + " ipads for a total cost of " + paymentdue + "dollars please type one to pay");
                                 paid = sc.nextInt();
                             }
                             if (paid == 1) {
-                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 2 to continue shopping");
+                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 4 to back to the menu");
                                 typeofshop = sc.nextInt();
                                 if (typeofshop == 1) {
                                     System.out.println("You are an administrator please enter your password (Hint: 12345)");
@@ -703,12 +703,12 @@ public class Main {
                                 int removefromcart = sc.nextInt();
                                 harrypottercount = harrypottercount - removefromcart;
                                 quantity = quantity - removefromcart;
-                                paymentdue = 500 * quantity;
+                                paymentdue = 20 * quantity;
                                 System.out.println(" Your cart now consists of " + quantity + " ipads for a total cost of " + paymentdue + "dollars please type one to pay");
                                 paid = sc.nextInt();
                             }
                             if (paid == 1) {
-                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 2 to continue shopping");
+                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 4 to back to the menu");
                                 typeofshop = sc.nextInt();
                                 if (typeofshop == 1) {
                                     System.out.println("You are an administrator please enter your password (Hint: 12345)");
@@ -841,13 +841,13 @@ public class Main {
                                 int removefromcart = sc.nextInt();
                                 harrypottercount = harrypottercount - removefromcart;
                                 quantity = quantity - removefromcart;
-                                paymentdue = 500 * quantity;
+                                paymentdue = 45 * quantity;
                                 System.out.println(" Your cart now consists of " + quantity + " ipads for a total cost of " + paymentdue + "dollars please type one to pay");
                                 paid = sc.nextInt();
                             }
 
                             if (paid == 1) {
-                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 2 to continue shopping");
+                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 4 to back to the menu");
                                 typeofshop = sc.nextInt();
                                 if (typeofshop == 1) {
                                     System.out.println("You are an administrator please enter your password (Hint: 12345)");
@@ -973,12 +973,12 @@ public class Main {
                                 int removefromcart = sc.nextInt();
                                 harrypottercount = harrypottercount - removefromcart;
                                 quantity = quantity - removefromcart;
-                                paymentdue = 500 * quantity;
+                                paymentdue = 50 * quantity;
                                 System.out.println(" Your cart now consists of " + quantity + " ipads for a total cost of " + paymentdue + "dollars please type one to pay");
                                 paid = sc.nextInt();
                             }
                             if (paid == 1) {
-                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 2 to continue shopping");
+                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 4 to back to the menu");
                                 typeofshop = sc.nextInt();
                                 if (typeofshop == 1) {
                                     System.out.println("You are an administrator please enter your password (Hint: 12345)");
@@ -1097,12 +1097,12 @@ public class Main {
                                 int removefromcart = sc.nextInt();
                                 harrypottercount = harrypottercount - removefromcart;
                                 quantity = quantity - removefromcart;
-                                paymentdue = 500 * quantity;
+                                paymentdue = 20 * quantity;
                                 System.out.println(" Your cart now consists of " + quantity + " ipads for a total cost of " + paymentdue + "dollars please type one to pay");
                                 paid = sc.nextInt();
                             }
                             if (paid == 1) {
-                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 2 to continue shopping");
+                                System.out.println("Thank you for shopping with us type 1 to access the administrator features or 4 to back to the menu");
                                 typeofshop = sc.nextInt();
                                 if (typeofshop == 1) {
                                     System.out.println("You are an administrator please enter your password (Hint: 12345)");
